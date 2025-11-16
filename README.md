@@ -11,91 +11,40 @@ All memory stays local until you choose to share it, with full privacy protectio
 
 ## ❌ Without aline
 
-- ❌ Context disappears every session
-- ❌ You repeat background to the agent again and again 
-- ❌ Teammates redo work, repeat mistakes, and meeting a lot to stay aligned
-- ❌ Manually ask the agent to summarize progress
+❌ Context disappears every session 
+
+❌ You repeat background to the agent again and again 
+
+❌ Teammates redo work, repeat mistakes, and meeting a lot to stay aligned
+
+❌ Manually ask the agent to summarize progress
 
 ## ✅ With aline
 
--	✅ Automatically remembers everything across sessions and models
--	✅ Shared AI memory for teams, like github
--	✅ Automatically summarizes and commit progress
+✅ Automatically remembers everything across sessions and models
+
+✅ Shared AI memory for teams, like github
+
+✅ Automatically summarizes and commit progress
+
 ---
 
-## Installation
+### One-Command Installation
 
 ### Claude Code
 
 ```bash
 claude mcp add --scope user --transport stdio aline -- npx -y aline-ai@latest
 ```
-
-### Cursor (`~/.cursor/mcp.json`)
-
-```json
-{
-  "mcpServers": {
-    "aline": {
-      "command": "npx",
-      "args": ["-y", "aline-ai@latest"]
-    }
-  }
-}
+To verify installation:
+```bash
+claude mcp list
 ```
-
-### VS Code (`settings.json`)
-
-```json
-{
-  "mcp": {
-    "servers": {
-      "aline": {
-        "command": "npx",
-        "args": ["-y", "aline-ai@latest"]
-      }
-    }
-  }
-}
+If you see:
+```bash
+aline: npx -y aline-ai@latest  — ✓ Connected
 ```
-
-### Windsurf (`~/.codeium/windsurf/mcp_config.json`)
-
-```json
-{
-  "mcpServers": {
-    "aline": {
-      "command": "npx",
-      "args": ["-y", "aline-ai@latest"]
-    }
-  }
-}
-```
-
-### Zed
-
-```json
-{
-  "context_servers": {
-    "aline": {
-      "command": {
-        "path": "npx",
-        "args": ["-y", "aline-ai@latest"]
-      }
-    }
-  }
-}
-```
-
-### Other MCP Clients
-
-```json
-{
-  "command": "npx",
-  "args": ["-y", "aline-ai@latest"]
-}
-```
-
+then the installation was successful.
 
 ## How It Works
 
