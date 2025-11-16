@@ -1,0 +1,22 @@
+{
+  "name": "aline",
+  "version": "0.1.0",
+  "description": "AI Agent Chat Session Tracker - Automatically preserves AI conversation context for searchable history",
+  "author": "HumanRe",
+  "license": "MIT",
+  "repository": "https://github.com/human-re/aline",
+  "capabilities": {
+    "tools": [
+      "aline_init",
+      "aline_search",
+      "aline_show",
+      "aline_get_latest_session",
+      "aline_version"
+    ]
+  },
+  "transport": ["stdio"],
+  "installation": {
+    "npx": "npx -y aline-ai@latest",
+    "claude-code": "claude mcp add --scope user --transport stdio aline -- npx -y aline-ai@latest"
+  }
+}

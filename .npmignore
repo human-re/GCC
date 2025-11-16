@@ -1,0 +1,41 @@
+# Source files (not releasing source code)
+src/
+tests/
+__tests__/
+*.test.js
+*.spec.js
+
+# Development files
+.git/
+.github/
+.gitignore
+.eslintrc*
+.prettierrc*
+tsconfig.json
+jest.config.*
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+
+# Documentation sources (keep README.md)
+docs/
+*.md
+!README.md

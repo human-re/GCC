@@ -1,0 +1,36 @@
+{
+  "name": "aline-ai",
+  "version": "0.5.3",
+  "description": "Aline MCP Server - AI Agent Chat Session Tracker",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "chat-history",
+    "claude",
+    "session-tracking",
+    "context-preservation"
+  ],
+  "author": "human-re",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/human-re/aline"
+  },
+  "homepage": "https://github.com/human-re/aline#readme",
+  "bugs": {
+    "url": "https://github.com/human-re/aline/issues"
+  },
+  "bin": {
+    "aline-ai": "./bin/aline-mcp.js"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module"
+}

@@ -1,0 +1,14 @@
+# Smithery.ai configuration for Aline MCP Server
+# https://smithery.ai
+
+startCommand:
+  type: stdio
+  configSchema:
+    # No additional configuration required
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({
+      command: 'npx',
+      args: ['-y', 'aline-ai@latest']
+    })
