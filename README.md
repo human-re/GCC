@@ -29,7 +29,7 @@ All memory stays local until you choose to share it, with full privacy protectio
 
 ---
 
-### One-Command Installation
+## One-Command Installation
 
 ### Claude Code
 
