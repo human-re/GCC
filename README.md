@@ -1,11 +1,12 @@
-# aline MCP Server
+# Aline MCP Server
 
 **Shared AI memory; everyone knows everything in teams**
 
-aline maintains a persistent memory layer for you and your team. Your context keeps across sessions, models, and teammates.
-When you push to a shared workspace (e.g., GitHub), it attaches the relevant context so others can pick up your work seamlessly.
+Aline maintains a persistent memory layer for you and your team, your agent context stays consistent across sessions, models, and teammates.
 
-All memory stays local until you choose to share it, with full privacy protection.
+It automatically commits your progress as you interact with the agent, and syncs that context when you push to GitHub, so others can see the history and pick up your work seamlessly.
+
+All memory stays local until you choose to share it, and any shared context is fully privacy-protected.
 
 ---
 
@@ -48,10 +49,11 @@ then the installation was successful.
 
 ## How It Works
 
-Once installed, aline runs in the background. It saves your AI conversations, updates summaries, and keeps memory across sessions, models, and apps.
-It recalls context automatically, and you can force it by adding “use aline” to your prompt.
+Once installed, Aline runs quietly in the background and automatically records everything.
 
-When you share your workspace (e.g., push to GitHub), aline includes the memory so the others can continue with full context.
+It recalls context when needed, or you can force it by adding “use aline” to your prompt.
+
+When you share your workspace (e.g., push to GitHub), aline includes the recorded memory so the others can continue with full context.
 
 Each project has its own memory, and it doesn’t carry over across projects.
 

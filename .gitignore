@@ -10,6 +10,7 @@ build/
 # IDE
 .idea/
 .vscode/
+.realign/
 *.swp
 *.swo
 *~
