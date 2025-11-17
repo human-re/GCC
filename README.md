@@ -1,4 +1,4 @@
-# Aline MCP Server
+# Aline MCP Server (One-click deployment of "Git the Context")
 
 **Shared AI memory; everyone knows everything in teams**
 
