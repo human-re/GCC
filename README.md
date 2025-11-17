@@ -73,3 +73,14 @@ aline instantly retrieves Bob’s conversation from last week:
 MIT — see [LICENSE](LICENSE)
 
 ---
+
+## Cite
+```
+@article{wu2025git,
+  title={Git context controller: Manage the context of llm-based agents like git},
+  author={Wu, Junde},
+  journal={arXiv preprint arXiv:2508.00031},
+  year={2025}
+}
+```
+
