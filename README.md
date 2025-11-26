@@ -1,4 +1,4 @@
-# Aline MCP Server (One-click deployment of "Agentic Git")
+# Aline: Agentic Git for Vibe Coders
 
 
 Aline auto-commits your progress while you vibe-code and turns it into a persistent memory layer. Agents can read and search this memory, keeping context consistent across sessions, models, and teammates.
