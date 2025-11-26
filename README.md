@@ -3,6 +3,7 @@
 
 Aline auto-commits your progress while you vibe-code and turns it into a persistent memory layer. Agents can read and search this memory, keeping context consistent across sessions, models, and teammates.
 When you push to GitHub, the memory is shared—so others can see the history and continue your work seamlessly.
+
 ---
 
 ## ❌ Without aline
