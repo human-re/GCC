@@ -1,13 +1,8 @@
-# Aline MCP Server (One-click deployment of "Git the Context")
+# Aline MCP Server (One-click deployment of "Agentic Git")
 
-**Shared AI memory; everyone knows everything in teams**
 
-Aline maintains a persistent memory layer for you and your team, your agent context stays consistent across sessions, models, and teammates.
-
-It automatically commits your progress as you interact with the agent, and syncs that context when you push to GitHub, so others can see the history and pick up your work seamlessly.
-
-All memory stays local until you choose to share it, and any shared context is fully privacy-protected.
-
+Aline auto-commits your progress while you vibe-code and turns it into a persistent memory layer. Agents can read and search this memory, keeping context consistent across sessions, models, and teammates.
+When you push to GitHub, the memory is shared—so others can see the history and continue your work seamlessly.
 ---
 
 ## ❌ Without aline
@@ -24,7 +19,7 @@ All memory stays local until you choose to share it, and any shared context is f
 
 ✅ Automatically remembers everything across sessions and models
 
-✅ Shared AI memory for teams, like github
+✅ Shared AI memory on github
 
 ✅ Automatically summarizes and commit progress
 
@@ -32,7 +27,7 @@ All memory stays local until you choose to share it, and any shared context is f
 
 ## One-Command Installation
 
-### Claude Code
+### MCP on Claude Code (fully automatic)
 
 ```bash
 claude mcp add --scope user --transport stdio aline -- npx -y aline-ai@latest
@@ -47,9 +42,30 @@ aline: npx -y aline-ai@latest  — ✓ Connected
 ```
 then the installation was successful.
 
-## How It Works
+### Python (semi-automatic)
 
-Once installed, Aline runs quietly in the background and automatically records everything.
+```bash
+pip install aline-ai
+```
+
+Initialize in your project:
+```bash
+aline init
+```
+
+Commit your progress:
+```bash
+aline commit
+```
+
+Push via Git as usual:
+```bash
+git push
+```
+
+## How It Works 
+
+Once installed as MCP, Aline runs quietly in the background and automatically records everything.
 
 It recalls context when needed, or you can force it by adding “use aline” to your prompt.
 
